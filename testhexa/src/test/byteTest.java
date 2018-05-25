@@ -8,7 +8,6 @@ public class byteTest {
 		byte[] arr = new byte[] {'A','m','Z','t','i','n','g'};
 
 		StringBuilder sb = new StringBuilder();
-		StringBuilder sb2 = new StringBuilder();
 		int tint = 0;
 		
 		for (int i = 0; i < arr.length; i++) {
@@ -16,12 +15,18 @@ public class byteTest {
 			System.out.println(arr[i]);
 			sb.append(bt.hexastr(arr[i]));
 		}
-		
-		
 
 		System.out.println("아스키  = " + sb);
 		
 	}
+	
+	
+	
+	
+	
+	
+	
+	
 
 	public String hexastr(int a){
 		
