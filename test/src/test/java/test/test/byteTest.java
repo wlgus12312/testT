@@ -1,4 +1,4 @@
-package test;
+package test.test;
 
 import java.util.HashMap;
 import java.util.Iterator;
