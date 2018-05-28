@@ -10,6 +10,7 @@ public class StringtoByte1 {
 	
 	byte[] barr = new byte[]{};
 	
+	
 	public StringtoByte1(){}
 	
 	public static void main(String[] args){
