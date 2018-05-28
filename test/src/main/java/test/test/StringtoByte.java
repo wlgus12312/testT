@@ -14,17 +14,18 @@ public class StringtoByte {
 	
 	public static void main(String[] args){
 		
-		StringtoByte stb = new StringtoByte();
+		StringtoByte1 stb = new StringtoByte1();
 		
 		String[] arr = stb.createHex();
 		
 		stb.hexNum(arr);
 		
+		
 	}
 	
 	public String[] createHex(){
 		
-		String[] hexarr = new String[]{"6D","7C"};
+		String[] hexarr = new String[]{"6D7C"};
 		
 		return hexarr;
 	}
