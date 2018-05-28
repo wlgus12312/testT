@@ -4,19 +4,20 @@ import java.io.BufferedReader;
 import java.util.HashMap;
 import java.util.Map;
 
-public class StringtoByte {
+public class StringtoByte1 {
 	
 	StringBuffer sb = new StringBuffer();
 	
 	byte[] barr = new byte[]{};
 	
-	public StringtoByte(){}
+	public StringtoByte1(){}
 	
 	public static void main(String[] args){
 		
-		StringtoByte stb = new StringtoByte();
+		StringtoByte1 stb = new StringtoByte1();
 		
 		String[] arr = stb.createHex();
+		
 		
 		stb.hexNum(arr);
 		
@@ -24,7 +25,7 @@ public class StringtoByte {
 	
 	public String[] createHex(){
 		
-		String[] hexarr = new String[]{"6D","7C"};
+		String[] hexarr = new String[]{"6D7C"};
 		
 		return hexarr;
 	}
